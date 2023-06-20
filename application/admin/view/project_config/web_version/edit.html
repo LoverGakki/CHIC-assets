@@ -1,0 +1,71 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    {:token()}
+
+    <div class="form-group">
+        <label for="c-os_name" class="control-label col-xs-12 col-sm-2">平台名称:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-os_name" data-rule="required" class="form-control" readonly="readonly" type="text"
+                   value="{$row.os_name|htmlentities}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-now_version" class="control-label col-xs-12 col-sm-2">当前版本号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-now_version" data-rule="required" class="form-control" name="row[now_version]" type="text"
+                   value="{$row.now_version|htmlentities}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-info" class="control-label col-xs-12 col-sm-2">简述:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-info" data-rule="required" class="form-control" name="row[info]" type="text"
+                   value="{$row.info|htmlentities}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="description"  class="control-label col-xs-12 col-sm-2">详情描述:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea class="form-control" id="description" name="row[description]">{$row.description}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-download_link" class="control-label col-xs-12 col-sm-2">下载链接:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-download_link" data-rule="required" class="form-control" name="row[download_link]" type="text"
+                   value="{$row.download_link|htmlentities}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">强制更新:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[enforce]', ['1'=>__('是'), '0'=>__('否')], $row.enforce)}
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">热更新:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[hot_update]', ['1'=>__('Normal'), '0'=>__('否')], $row.hot_update)}
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_radios('row[status]', ['1'=>__('Normal'), '0'=>__('Hidden')], $row.status)}
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,46 @@
+<form id="change_token_value-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    {:token()}
+
+    <div class="form-group">
+        <label for="c-username" class="control-label col-xs-12 col-sm-2">转出用户:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-username" class="form-control" readonly="readonly" type="text" value="{$row.username}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-mobile" class="control-label col-xs-12 col-sm-2">转出手机号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-mobile" class="form-control" readonly="readonly" type="text" value="{$row.mobile}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-token_value" class="control-label col-xs-12 col-sm-2">可用余额:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-token_value" class="form-control" type="text" readonly="readonly" value="{$row.token_value}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-accept_mobile" class="control-label col-xs-12 col-sm-2">收款人手机号:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-accept_mobile" class="form-control" name="row[accept_mobile]" type="text" value="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-transfer_value" class="control-label col-xs-12 col-sm-2">转账金额金额:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-transfer_value" data-rule="required" class="form-control" name="row[transfer_value]" type="number" value="">
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

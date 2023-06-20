@@ -1,0 +1,873 @@
+---------------------------------------------------------------
+[ 2023-05-09T09:39:23+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/MjkBryoaOv.php/index/login
+[运行时间：0.267539s] [吞吐率：3.74req/s] [内存消耗：670.09kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002642s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008321s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003926s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000996s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.007081s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\work\WAR_investment\code\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\work\WAR_investment\code\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002480s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T09:39:23+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/index.php?s=/captcha
+[运行时间：0.110442s] [吞吐率：9.05req/s] [内存消耗：254.74kb] [文件加载：53]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000673s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005087s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001995s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001500s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=mbmq2fc92idust3t1roqhp2nvm',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\work\WAR_investment\code\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T09:39:27+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/MjkBryoaOv.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1683596363&v=1683596363
+[运行时间：0.090968s] [吞吐率：10.99req/s] [内存消耗：418.65kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000456s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003735s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001576s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000803s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=mbmq2fc92idust3t1roqhp2nvm',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1683596363',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005017s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\WAR_investment\code\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001937s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:22:19+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.186831s] [吞吐率：5.35req/s] [内存消耗：901.93kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000537s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004827s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002249s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000836s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKVNGbhZlpC70gv4w',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005044s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:22:24+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.123333s] [吞吐率：8.11req/s] [内存消耗：630.66kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000406s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003478s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001364s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000825s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003502s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:29:02+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.078783s] [吞吐率：12.69req/s] [内存消耗：477.95kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000403s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003731s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001590s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000834s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqQZ2UIDKgducobZh',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003478s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:29:13+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.121042s] [吞吐率：8.26req/s] [内存消耗：632.91kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000413s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003481s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001318s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000833s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDmL7hLrfAyoAis90',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003508s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:29:34+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.119842s] [吞吐率：8.34req/s] [内存消耗：631.91kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000402s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003421s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001309s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000821s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '231',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu4BhAMpXDw2PG8Zm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+  'page' => '',
+  'page_size' => '',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003399s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:29:54+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.121969s] [吞吐率：8.20req/s] [内存消耗：633.00kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000402s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003435s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001335s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000852s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '231',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKCO6WxgEudDTgAjG',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+  'page' => '',
+  'page_size' => '',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003421s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:29:59+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/api/team/getTeamRelatedData
+[运行时间：0.121304s] [吞吐率：8.24req/s] [内存消耗：630.66kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000402s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003433s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001363s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000833s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getTeamRelatedData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003611s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getTeamRelatedData[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:30:07+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getDirectReferralList
+[运行时间：0.117515s] [吞吐率：8.51req/s] [内存消耗：647.64kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000410s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003414s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001347s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000821s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getDirectReferralList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003361s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getDirectReferralList[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:30:12+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getDirectReferralList
+[运行时间：0.151494s] [吞吐率：6.60req/s] [内存消耗：642.03kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000403s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003454s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001344s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000807s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getDirectReferralList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003616s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getDirectReferralList[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:30:58+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/user/login
+[运行时间：0.105822s] [吞吐率：9.45req/s] [内存消耗：602.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000406s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003532s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001372s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000832s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '250',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydyjW6rWxKxAQBiL5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13888888888',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003490s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\WAR_investment\code\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:31:13+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/user/resetpwd
+[运行时间：0.260241s] [吞吐率：3.84req/s] [内存消耗：613.81kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000413s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003776s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001551s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000821s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'resetpwd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '555',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2NidnAvmMO6fd7J8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'mobile',
+  'mobile' => '13888888888',
+  'newpassword' => '123456',
+  'confirmpassword' => '123456',
+  'captcha' => '7788',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003512s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->resetpwd[ D:\work\WAR_investment\code\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:31:18+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/user/login
+[运行时间：0.204101s] [吞吐率：4.90req/s] [内存消耗：617.16kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000400s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003450s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001457s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000821s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '250',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytN4EBkLVwbXlBAXV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'account' => '13888888888',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003588s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\WAR_investment\code\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T16:31:28+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/team/getDirectReferralList
+[运行时间：0.175127s] [吞吐率：5.71req/s] [内存消耗：706.44kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000404s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003398s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001303s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000827s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'team',
+    2 => 'getDirectReferralList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => '9b369eed-22ac-4983-a0d7-48a83b55fdc4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003404s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Team->getDirectReferralList[ D:\work\WAR_investment\code\application\api\controller\Team.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T17:54:14+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/api/project/getProjectTypeList
+[运行时间：0.079460s] [吞吐率：12.58req/s] [内存消耗：477.27kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000402s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003974s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001638s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000824s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'project',
+    2 => 'getProjectTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004008s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T17:54:26+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/api/project/getProjectTypeList
+[运行时间：0.134605s] [吞吐率：7.43req/s] [内存消耗：679.06kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000403s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003381s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001333s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000835s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'project',
+    2 => 'getProjectTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003358s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T17:58:06+08:00 ] 192.168.31.37 GET 192.168.31.37:8001/api/project/getProjectTypeList
+[运行时间：0.163868s] [吞吐率：6.10req/s] [内存消耗：665.10kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000413s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003796s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001572s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000836s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'project',
+    2 => 'getProjectTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003533s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Project->getProjectTypeList[ D:\work\WAR_investment\code\application\api\controller\Project.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T18:11:32+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/project/getUserCouponsList
+[运行时间：0.078573s] [吞吐率：12.73req/s] [内存消耗：477.98kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000404s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003769s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001599s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000821s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'project',
+    2 => 'getUserCouponsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaUmebtwXh0vOBDxY',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003666s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T18:11:41+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/project/getUserCouponsList
+[运行时间：0.138797s] [吞吐率：7.20req/s] [内存消耗：629.88kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000453s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003473s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001331s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000834s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'project',
+    2 => 'getUserCouponsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8D7CYhBTBYWEpS6F',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => '9b369eed-22ac-4983-a0d7-48a83b55fdc4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003441s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T18:11:56+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/user_coupons/getUserCouponsList
+[运行时间：0.161981s] [吞吐率：6.17req/s] [内存消耗：646.88kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000411s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003541s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001359s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000824s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_coupons',
+    2 => 'getUserCouponsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysMht3SPobNSeBBQG',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => '9b369eed-22ac-4983-a0d7-48a83b55fdc4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005041s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\UserCoupons->getUserCouponsList[ D:\work\WAR_investment\code\application\api\controller\UserCoupons.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T18:12:04+08:00 ] 192.168.31.37 POST 192.168.31.37:8001/api/user_coupons/getUserCouponsList
+[运行时间：0.165747s] [吞吐率：6.03req/s] [内存消耗：716.10kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000409s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003558s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001410s ]
+[ info ] [ LANG ] D:\work\WAR_investment\code\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000826s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_coupons',
+    2 => 'getUserCouponsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.31.37:8001',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9xceMDo6ngtdB64C',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) runapi/2.0.5 Chrome/80.0.3987.163 Electron/8.5.5 Safari/537.36',
+  'token' => 'b0a2b15a-4928-4a9c-9c53-9452daebb773',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\WAR_investment\code\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003683s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\UserCoupons->getUserCouponsList[ D:\work\WAR_investment\code\application\api\controller\UserCoupons.php ]
+[ info ] [ LOG ] INIT File

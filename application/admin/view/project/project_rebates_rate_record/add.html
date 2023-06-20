@@ -1,0 +1,41 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    {:token()}
+
+    <div class="form-group">
+        <label for="c-project_id" class="control-label col-xs-12 col-sm-2">变更项目:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-project_id" data-rule="" data-source="project/investment_project/selectpage" data-field="name" data-search-field="name" data-primary-key="project_id" data-pagination="true" data-order-by="project_id" data-multiple="false" data-params='{"custom[status]":"1"}' class="form-control selectpage" name="row[project_id]" type="text" value="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-daily_rebates_rate" class="control-label col-xs-12 col-sm-2">日化利率（%）:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-daily_rebates_rate" data-rule="required" class="form-control" name="row[daily_rebates_rate]" type="number"
+                   value="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-start_time" class="control-label col-xs-12 col-sm-2">开始时间:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[start_time_text]" type="text" value="">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-end_time" class="control-label col-xs-12 col-sm-2">结束时间:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[end_time_text]" type="text" value="">
+        </div>
+    </div>
+
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
